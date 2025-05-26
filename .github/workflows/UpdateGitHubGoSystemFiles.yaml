@@ -32,6 +32,7 @@ defaults:
 env:
   ALGoOrgSettings: ${{ vars.ALGoOrgSettings }}
   ALGoRepoSettings: ${{ vars.ALGoRepoSettings }}
+  ACTIONS_STEP_DEBUG: true
 
 jobs:
   Initialize:
